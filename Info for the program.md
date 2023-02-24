@@ -11,7 +11,7 @@ pip install PyAudio
 
 pip install vosk
 
-pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu117
+pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cpu
 
 After this you will need to go to https://alphacephei.com/vosk/models website where you have to download the following:
 
