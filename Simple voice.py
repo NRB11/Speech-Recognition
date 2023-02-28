@@ -9,7 +9,7 @@ def SpeakText(command):
     engine.say(command)
     engine.runAndWait()
 
-with sr.Microphone(index = 1) as source2:
+with sr.Microphone() as source2:
     r.adjust_for_ambient_noise(source2, duration=0.2)
     
     audio2 = r.listen(source2)
