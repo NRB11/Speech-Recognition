@@ -13,7 +13,7 @@ with sr.Microphone() as source2:
     
     audio2 = r.listen(source2)
     
-    MyText = r.recognize_google_cloud(audio2)
+    MyText = r.recognize_google(audio2)
     MyText = MyText.lower()
     
     print("Did you say " + MyText)
